@@ -1,0 +1,91 @@
+/*css初始化*/
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+input,
+form {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px arial, 'microsoft yahei';
+  color: #000;
+}
+li {
+  list-style: none;
+}
+img {
+  border: 0;
+  /*清除图片底部缝隙*/
+  vertical-align: middle;
+}
+input {
+  border: 0;
+  outline: none;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+i,
+em {
+  font-style: normal;
+}
+a:hover {
+  color: orange;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+.w {
+  width: 980px;
+  margin: 0 auto;
+}
+.red {
+  color: #c81623;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f20 {
+  font-size: 20px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}

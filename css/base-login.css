@@ -1,0 +1,202 @@
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+img,
+input,
+div,
+a,
+i,
+textarea,
+em,
+span {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	/* font:12px arial,'microsoft-yahei'; */
+}
+
+img {
+	border: 0;
+	/*清除图片底部缝隙*/
+	vertical-align: middle;
+}
+
+i,
+em {
+	font-style: normal;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.w {
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.f12 {
+	font-size: 12px;
+}
+
+.f14 {
+	font-size: 14px;
+}
+
+.f16 {
+	font-size: 16px;
+}
+
+.f20 {
+	font-size: 20px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b {
+	font-weight: 400;
+}
+
+input {
+	border: 0;
+	outline: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+/*初始化结束*/
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+dl,
+dt,
+dd,
+form,
+input,
+ol,
+li,
+th,
+td,
+button,
+a,
+img {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 12px arial, 'microsoft yahei';
+}
+
+a {
+	color: #333;
+}
+
+i,
+em {
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+input,
+textarea {
+	outline: none;
+	border: none;
+}
+
+img {
+	/*清除ie浏览器边框*/
+	border: 0 none;
+	vertical-align: middle;
+}
+
+.w {
+	max-width: 1270px;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}

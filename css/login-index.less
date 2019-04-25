@@ -1,0 +1,918 @@
+.top-box {
+    height: 261px;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+        url('iconfont.woff2') format('woff2'),
+        url('iconfont.woff') format('woff'),
+        url('iconfont.ttf') format('truetype'),
+        url('iconfont.svg#iconfont') format('svg');
+}
+
+.login-span {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #666;
+
+}
+
+
+// 预留空间结束
+// 最上面图片开始
+.input-change {
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-weight: 100;
+    color: #666;
+    width: 600px;
+    background: none;
+    outline: none;
+    border: 0px;
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid #ccc;
+    // border-bottom: 1px solid #ccc;
+    font-size: 22px;
+    padding-left: 50px;
+
+}
+
+
+.layui-layer-btn {
+    text-align: center;
+
+    .layui-layer-btn0 {
+        background: linear-gradient(135deg, #bbb, #4e5153);
+        border-color: #fff;
+    }
+
+}
+
+
+.top-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    // height: 294px;
+    img {
+        // margin: 0 auto;
+        // box-sizing: border-box;
+        width: 100%;
+        height: auto;
+    }
+
+    // background: url(../images/4.jpg) no-repeat;
+}
+
+// 账户说明开始
+.dec {
+    text-align: center;
+    margin: 30px 0;
+
+    .h1 {
+        font-size: 45px;
+        height: 67px; // line-height: 67px;
+    }
+
+    .h3 {
+        font-size: 20px;
+        font-weight: 350;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+// 账户说明结束
+// 返回条开始
+.back {
+    box-sizing: border-box; // display: inline-block;
+
+    // margin-bottom: 20px;
+    .back-index {
+
+        // display: inline-block;
+        // padding-left: 10px;
+        // padding-right:60px;
+        a {
+            font-size: 14px;
+        }
+    }
+
+    .this-page {
+        box-sizing: border-box;
+        display: inline-block;
+        margin: 0 550px;
+
+        a {
+            font-size: 14px;
+        }
+
+        a:nth-child(1) {
+            color: #ccc;
+        }
+    }
+}
+
+// 返回条结束
+// 登录注册开始
+body .loginMain {
+    margin-top: 20px !important;
+    margin: 0 auto;
+    width: 600px; // background:;
+
+    // 上title开始
+    .top-title {
+        position: relative;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+
+        h3 {
+            // text-align: center;
+            color: #666;
+            // border-top: 1px solid #ccc; // 一会写js的时候 下面这个border-bottom 为none
+            // border-bottom: 1px solid #ccc;
+            padding-left: 100px;
+            height: 60px;
+            line-height: 60px;
+        }
+
+        i {
+            position: absolute;
+            top: 12px;
+            left: 500px;
+            color: #666;
+            font-size: 34px;
+        }
+
+        // .iconfont {
+        //     font-family: "iconfont" !important;
+        //     font-size: 16px;
+        //     font-style: normal;
+        //     -webkit-font-smoothing: antialiased;
+        //     -moz-osx-font-smoothing: grayscale;
+        //   }
+
+        // 上箭头
+        .icon-shangjiantou3 {
+            display: none;
+        }
+    }
+
+    // 上盒子开始
+    .login-top-up {
+        display: none;
+        background: #eee;
+
+        p {
+            padding-top: 10px;
+            margin-bottom: 25px;
+            text-align: center;
+            color: #666;
+        }
+
+        // 手机输入框开始
+        // input {
+        //     box-sizing: border-box;
+        //     width: 600px;
+        //     background: none;
+        //     outline: none;
+        //     border: 0px;
+        //     height: 60px;
+        //     line-height: 60px;
+        //     border-top: 1px solid #ccc;
+        //     border-bottom: 1px solid #ccc;
+        //     font-size: 25px;
+        //     padding-left: 50px;
+        // }
+
+        .check-phone {
+            position: relative;
+
+            // span {
+            //     position: absolute;
+            //     top: 15px;
+            //     left: 80px;
+            //     font-weight: 300;
+            //     font-size: 20px;
+            //     color: #666;
+            // }
+
+            // 这里是以后用js要添加的类名
+            .span-change {
+                // position: absolute;
+                // top: 0px;
+                // left: 0px;
+                // font-size: 14px;
+                color: #333;
+            }
+        }
+
+        // 手机输入框结束
+        // 密码输入框开始
+        // .check-password {
+        //     position: relative;
+        //     i {
+        //         position: absolute;
+        //         top: 15px;
+        //         left: 450px;
+        //     }
+        // }
+        .check-password {
+            position: relative;
+
+            // span {
+            //     position: absolute;
+            //     top: 15px;
+            //     left: 80px;
+            //     font-weight: 300;
+            //     font-size: 20px;
+            //     color: #666;
+
+            // }
+
+            input {
+                border-top: none;
+            }
+
+            // 这里是以后用js要添加的类名
+            .span-change {
+                // position: absolute;
+                // top: 0px;
+                // left: 0px;
+                // font-size: 14px;
+                color: #333;
+            }
+
+            .icon-yanjing-bi {
+                position: absolute;
+                top: 18px;
+                left: 500px;
+                font-size: 24px;
+            }
+
+            .icon-yanjing-shi {
+                position: absolute;
+                top: 18px;
+                left: 500px;
+                font-size: 24px;
+                // 偶数点击的时候 js让他出现
+                // 同时变为displayblock
+                display: none;
+            }
+        }
+
+        // 密码输入框结束
+        // 记住用户开始
+        .rember-user {
+            height: 40px;
+            margin-top: 30px;
+            line-height: 40px;
+            padding-left: 80px;
+            padding-right: 80px; // 左侧盒子
+
+            .rember-left {
+                float: left;
+
+                input[type="checkbox"] {
+                    width: 20px;
+                    height: 40px;
+                    line-height: 40px;
+                    border-bottom: none;
+                }
+
+                span {
+                    display: inline-block;
+                    height: 40px;
+                    line-height: 40px;
+                }
+            }
+
+            // 右侧盒子
+            .rember-right {
+                float: right; // overflow: hidden;
+            }
+
+            // 加js的时候 要给a加的类名
+            .a-change {
+                text-decoration: underline; // overflow: hidden;
+            }
+        }
+
+        // 登录按钮
+        .login-btn {
+            padding: 52px 0px;
+
+            input[type="button"] {
+                color: #222;
+                border: none;
+                font-size: 20px;
+                font-weight: 200;
+                background: linear-gradient(135deg, #bbb, #4e5153);
+                width: 200px;
+                height: 40px;
+                line-height: 40px;
+                padding: 0;
+                margin: 0 200px;
+                cursor: pointer;
+                box-shadow: 2px 2px 2px 2px #444; // padding: 15px 20px;
+            }
+        }
+    }
+
+    // 下盒子注册开始
+    // 注册盒子开始
+    .login-buttom {
+        .login-buttom-up {
+            background-color: #eee;
+            display: none;
+            // 性别开始
+
+            .sex {
+                height: 60px;
+                line-height: 60px;
+                padding-left: 100px;
+
+                .nouse {
+                    margin-left: 100px;
+                    margin-right: 200px;
+                }
+
+                input[type="radio"] {
+                    // -webkit-appearance: none;
+                    // font-size: 20px;
+                    width: 20px;
+                    height: 20px; // height: 60px;
+                    // line-height: 60px;
+                }
+            }
+
+            // 性别结束
+            // 姓名开始
+            .add-name {
+                position: relative; // border-bottom: 1px solid #ccc;
+
+                // span {
+                //     position: absolute;
+                //     top: 15px;
+                //     left: 80px;
+                //     font-weight: 300;
+                //     font-size: 20px;
+                //     color: #666;
+                // }
+
+                // 这里是以后用js要添加的类名
+                .span-change {
+                    // position: absolute;
+                    // // top: 0px;
+                    // // left: 0px;
+                    // font-size: 14px;
+                    color: #333;
+                }
+
+                // input {
+                //     box-sizing: border-box;
+                //     width: 600px;
+                //     background: none;
+                //     outline: none;
+                //     border: 0px;
+                //     height: 60px;
+                //     line-height: 60px;
+                //     border-top: 1px solid #ccc; // border-bottom: 1px solid #ccc;
+                //     font-size: 25px;
+                //     padding-left: 50px;
+                // }
+
+                p {
+                    padding-right: 80px;
+                    padding-left: 80px;
+                    font-size: 12px;
+                    color: #666;
+                }
+            }
+
+            // 姓名开始
+            // 手机号开始
+            .add-phone {
+                position: relative; // border-bottom: 1px solid #ccc;
+
+                // span {
+                //     position: absolute;
+                //     top: 15px;
+                //     left: 80px;
+                //     font-weight: 300;
+                //     font-size: 20px;
+                //     color: #666;
+                // }
+
+                // 这里是以后用js要添加的类名
+                .span-change {
+                    // position: absolute;
+                    // top: 0px;
+                    // left: 0px;
+                    // font-size: 14px;
+                    color: #333;
+                }
+
+                // input {
+                //     box-sizing: border-box;
+                //     width: 600px;
+                //     background: none;
+                //     outline: none;
+                //     border: 0px;
+                //     height: 60px;
+                //     line-height: 60px;
+                //     border-top: 1px solid #ccc; // border-bottom: 1px solid #ccc;
+                //     font-size: 25px;
+                //     padding-left: 50px;
+                // }
+            }
+
+            // 验证码开始
+            .add-yanzheng {
+                position: relative;
+                // border-bottom: 1px solid #ccc;
+
+                // span {
+                //     position: absolute;
+                //     top: 15px;
+                //     left: 80px;
+                //     font-weight: 300;
+                //     font-size: 20px;
+                //     color: #666;
+                // }
+
+                // 这里是以后用js要添加的类名
+                .span-change {
+                    // position: absolute;
+                    // top: 0px;
+                    // left: 0px;
+                    // font-size: 14px;
+                    color: #333;
+                }
+
+                // input[type="text"] {
+                //     box-sizing: border-box;
+                //     width: 600px;
+                //     background: none;
+                //     outline: none;
+                //     border: 0px;
+                //     height: 60px;
+                //     line-height: 60px;
+                //     border-top: 1px solid #ccc; // border-bottom: 1px solid #ccc;
+                //     font-size: 25px;
+                //     padding-left: 50px;
+                // }
+
+                input[type="button"] {
+                    color: #222;
+                    border: none;
+                    font-size: 20px;
+                    font-weight: 200;
+                    background: linear-gradient(135deg, #bbb, #4e5153);
+                    width: 200px;
+                    height: 40px;
+                    line-height: 40px;
+                    padding: 0;
+                    margin: 0 200px;
+                    cursor: pointer;
+                    box-shadow: 2px 2px 2px 2px #444; // padding: 15px 20px;
+                }
+            }
+
+            // 验证码结束
+            // 地区选择开始
+            .ara-check {
+                position: relative;
+                padding-top: 20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-top: 1px solid #ccc;
+                padding-left: 55px;
+
+                select {
+                    font-size: 20px;
+                    color: #666;
+                    display: inline-block;
+                    font-weight: 300; // text-decoration: none;
+                    width: 170px;
+                    height: 25px;
+                    border: 0px;
+                    background: transparent;
+                    appearance: none;
+                    -moz-appearance: none;
+                    -webkit-appearance: none;
+
+                    option {
+                        font-weight: 300;
+                        font-size: 20px;
+                        width: 120px;
+                        height: 25px;
+                        border: 0px;
+                    }
+                }
+
+                .icon-zhankaixiajiantou- {
+                    position: absolute;
+                    top: 23px;
+                    font-size: 20px;
+                    left: 205px;
+                    color: #666;
+                }
+
+                // .icon-icon-xia:nth-child(2){
+                //     position: absolute;
+                //     top: 23px;
+                //     font-size: 20px;
+                //     left: 500px;
+                //     color: #666;
+                // }
+                .icon-arrow {
+                    position: absolute;
+                    top: 23px;
+                    font-size: 20px;
+                    left: 380px;
+                    color: #666;
+                }
+
+                .icon-up {
+                    position: absolute;
+                    top: 23px;
+                    font-size: 20px;
+                    left: 555px;
+                    color: #666;
+                }
+            }
+
+            .add-address {
+                position: relative; // border-bottom: 1px solid #ccc;
+
+                // span {
+                //     position: absolute;
+                //     top: 15px;
+                //     left: 80px;
+                //     font-weight: 300;
+                //     font-size: 20px;
+                //     color: #666;
+                // }
+
+                // 这里是以后用js要添加的类名
+                .span-change {
+                    // position: absolute;
+                    // top: 0px;
+                    // left: 0px;
+                    // font-size: 14px;
+                    color: #333;
+                }
+
+                // input {
+                //     box-sizing: border-box;
+                //     width: 600px;
+                //     background: none;
+                //     outline: none;
+                //     border: 0px;
+                //     height: 60px;
+                //     line-height: 60px;
+                //     border-top: 1px solid #ccc; // border-bottom: 1px solid #ccc;
+                //     font-size: 25px;
+                //     padding-left: 50px;
+                // }
+            }
+
+            // 地区选择结束
+            // 添加邮件开始
+            .add-mail {
+                position: relative; // border-bottom: 1px solid #ccc;
+
+                // span {
+                //     position: absolute;
+                //     top: 15px;
+                //     left: 80px;
+                //     font-weight: 300;
+                //     font-size: 20px;
+                //     color: #666;
+                // }
+
+                // 这里是以后用js要添加的类名
+                .span-change {
+                    // position: absolute;
+                    // top: 0px;
+                    // left: 0px;
+                    // font-size: 14px;
+                    color: #333;
+                }
+
+                // input {
+                //     box-sizing: border-box;
+                //     width: 600px;
+                //     background: none;
+                //     outline: none;
+                //     border: 0px;
+                //     height: 60px;
+                //     line-height: 60px;
+                //     border-top: 1px solid #ccc; // border-bottom: 1px solid #ccc;
+                //     font-size: 25px;
+                //     padding-left: 50px;
+                // }
+            }
+
+            // 添加邮件结束
+            // 确认电子邮件开始
+            .check-mail {
+                position: relative; // border-bottom: 1px solid #ccc;
+
+                // span {
+                //     position: absolute;
+                //     top: 15px;
+                //     left: 80px;
+                //     font-weight: 300;
+                //     font-size: 20px;
+                //     color: #666;
+                // }
+
+                // 这里是以后用js要添加的类名
+                .span-change {
+                    // position: absolute;
+                    // top: 0px;
+                    // left: 0px;
+                    // font-size: 14px;
+                    color: #333;
+                }
+
+                // input {
+                //     box-sizing: border-box;
+                //     width: 600px;
+                //     background: none;
+                //     outline: none;
+                //     border: 0px;
+                //     height: 60px;
+                //     line-height: 60px;
+                //     border-top: 1px solid #ccc; // border-bottom: 1px solid #ccc;
+                //     font-size: 25px;
+                //     padding-left: 50px;
+                // }
+            }
+
+            // 确认电子邮件结束
+            // 生日开始
+            .add-birth {
+                padding-top: 20px;
+                // margin-top: 20px;
+                margin-bottom: 20px;
+                border-top: 1px solid #ccc;
+                padding-left: 55px;
+
+                p {
+                    color: #666;
+                    font-weight: 300;
+                    margin-bottom: 15px;
+                }
+
+                select {
+                    font-size: 20px;
+                    color: #666;
+                    display: inline-block;
+                    font-weight: 300; // text-decoration: none;
+                    width: 170px;
+                    height: 25px;
+                    border: 0px;
+                    background: transparent;
+                    appearance: none;
+                    -moz-appearance: none;
+                    -webkit-appearance: none;
+
+                    option {
+                        font-weight: 300;
+                        font-size: 20px;
+                        width: 120px;
+                        height: 25px;
+                        border: 0px;
+                    }
+                }
+            }
+
+            // 生日结束
+            // 密码开始
+            .add-password {
+                position: relative; // border-bottom: 1px solid #ccc;
+
+                // span {
+                //     position: absolute;
+                //     top: 15px;
+                //     left: 80px;
+                //     font-weight: 300;
+                //     font-size: 20px;
+                //     color: #666;
+                // }
+
+                // 这里是以后用js要添加的类名
+                .span-change {
+                    // position: absolute;
+                    // top: 0px;
+                    // left: 0px;
+                    // font-size: 14px;
+                    color: #333;
+                }
+
+                // input {
+                //     box-sizing: border-box;
+                //     width: 600px;
+                //     background: none;
+                //     outline: none;
+                //     border: 0px;
+                //     height: 60px;
+                //     line-height: 60px;
+                //     border-top: 1px solid #ccc; // border-bottom: 1px solid #ccc;
+                //     font-size: 25px;
+                //     padding-left: 50px;
+                // }
+            }
+
+            // 添加邮件结束
+            // 确认电子邮件开始
+            .ok-password {
+                position: relative; // border-bottom: 1px solid #ccc;
+
+                // span {
+                //     position: absolute;
+                //     top: 15px;
+                //     left: 80px;
+                //     font-weight: 300;
+                //     font-size: 20px;
+                //     color: #666;
+                // }
+
+                // 这里是以后用js要添加的类名
+                .span-change {
+                    // position: absolute;
+                    // top: 0px;
+                    // left: 0px;
+                    // font-size: 14px;
+                    color: #333;
+                }
+
+                // input {
+                //     box-sizing: border-box;
+                //     width: 600px;
+                //     background: none;
+                //     outline: none;
+                //     border: 0px;
+                //     height: 60px;
+                //     line-height: 60px;
+                //     border-top: 1px solid #ccc; // border-bottom: 1px solid #ccc;
+                //     font-size: 25px;
+                //     padding-left: 50px;
+                // }
+            }
+
+            // 密码结束
+            // 确认提交信息开始
+            .ok-massage {
+                height: 40px;
+                padding-top: 10px;
+                line-height: 40px;
+                padding-left: 60px;
+                padding-right: 75px;
+                border-top: 1px solid #ccc; // 复选框
+
+                input[type="checkbox"] {
+                    width: 20px;
+                    height: 40px;
+                    line-height: 40px;
+                    border-bottom: none;
+                }
+
+                //文字描述
+                // span {
+                //     color: #333;
+                //     // display: inline-block;
+                //     font-size: 14px;
+                //     height: 40px;
+                //     line-height: 40px;
+                // }
+            }
+
+            // 确认提交信息结束
+            // 获取资讯开始
+            .get-massage {
+                padding-left: 62px;
+                border-top: 1px solid #ccc;
+
+                h4 {
+                    font-size: 16px;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+
+                input[type="checkbox"] {
+                    width: 20px;
+                    height: 40px;
+                    line-height: 40px;
+                    border-bottom: none;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #333;
+                }
+
+                // span {
+                //     color: #333;
+                //     // display: inline-block;
+                //     font-size: 14px;
+                //     height: 40px;
+                //     line-height: 40px;
+                // }
+            }
+
+            // 获取资讯结束
+            // BE SWAROVSKI开始
+            .be-swarovski {
+                padding-left: 62px;
+                border-top: 1px solid #ccc;
+
+                h4 {
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                }
+
+                input[type="checkbox"] {
+                    width: 20px;
+                    height: 40px;
+                    line-height: 40px;
+                    border-bottom: none;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #333;
+                }
+
+                p {
+                    color: #333;
+                    font-family: "MicrosoftYaHei";
+                    // display: inline-block;
+                    font-size: 14px;
+                    // height: 40px;
+                    line-height: 40px;
+                }
+            }
+
+            // BE SWAROVSKI结束
+            // 注册按钮开始
+            .add-btn {
+                input[type="button"] {
+                    color: #222;
+                    border: none;
+                    font-size: 20px;
+                    font-weight: 200;
+                    background: linear-gradient(135deg, #bbb, #4e5153);
+                    width: 200px;
+                    height: 40px;
+                    line-height: 40px;
+                    padding: 0;
+                    margin: 20px 200px;
+                    cursor: pointer;
+                    box-shadow: 2px 2px 2px 2px #444; // padding: 15px 20px;
+                }
+
+            }
+
+            // 注册按钮结束
+        }
+    }
+}
+
+// 下面的联系我们开始
+// .chat-us{
+//     // border-top: 1px solid #666666;
+//     padding: 20px;
+//     margin-top: 30px;
+//     h4{
+//         text-align: center;
+//         font-size: 20px;
+//         font-weight: 500;
+//         margin-bottom: 50px;
+
+//     }
+//     ul{
+//         margin: 0 auto;
+//         li:nth-child(2){
+//             // padding-right: 400px;
+//             padding-left: 500px;
+//             padding-right: 500px;
+//             box-sizing: border-box;
+//             .icon-liaotian1{
+//                 font-size: 25px;
+//             }
+//         }
+//     }
+// }

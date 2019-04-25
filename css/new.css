@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1025px) {
+  html {
+    font-size: 43px;
+  }
+  .t-right {
+    width: 100%;
+  }
+  .t-right .jj .count {
+    width: 10%;
+  }
+  .zixun {
+    margin: 0.6122449rem auto;
+  }
+}
+@media only screen and (max-width: 760px) {
+  html {
+    font-size: 38px;
+  }
+  .w {
+    max-width: 759px;
+    width: 100%;
+  }
+  .trg {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .t-left {
+    width: 80%!important;
+    margin: 0 auto;
+  }
+  .t-right {
+    width: 100% !important;
+  }
+  .t-right h2 {
+    font-size: 16px;
+  }
+  .t-right .jj {
+    margin: 0.40816327rem auto;
+  }
+  .t-right a,
+  .t-right .xin {
+    margin: 0 auto;
+  }
+  .fh {
+    display: none;
+  }
+  .t-right .buy .jiaru {
+    margin: 0.30612245rem auto;
+  }
+  .zixun {
+    margin: 0.6122449rem auto;
+  }
+}

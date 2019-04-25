@@ -1,0 +1,424 @@
+.top-box {
+  height: 261px;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'), url('iconfont.woff2') format('woff2'), url('iconfont.woff') format('woff'), url('iconfont.ttf') format('truetype'), url('iconfont.svg#iconfont') format('svg');
+}
+.login-span {
+  position: absolute;
+  top: 15px;
+  left: 80px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #666;
+}
+.input-change {
+  padding-top: 20px;
+  box-sizing: border-box;
+  font-weight: 100;
+  color: #666;
+  width: 600px;
+  background: none;
+  outline: none;
+  border: 0px;
+  height: 60px;
+  line-height: 60px;
+  border-top: 1px solid #ccc;
+  font-size: 22px;
+  padding-left: 50px;
+}
+.layui-layer-btn {
+  text-align: center;
+}
+.layui-layer-btn .layui-layer-btn0 {
+  background: linear-gradient(135deg, #bbb, #4e5153);
+  border-color: #fff;
+}
+.top-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-img img {
+  width: 100%;
+  height: auto;
+}
+.dec {
+  text-align: center;
+  margin: 30px 0;
+}
+.dec .h1 {
+  font-size: 45px;
+  height: 67px;
+}
+.dec .h3 {
+  font-size: 20px;
+  font-weight: 350;
+  height: 30px;
+  line-height: 30px;
+}
+.back {
+  box-sizing: border-box;
+}
+.back .back-index a {
+  font-size: 14px;
+}
+.back .this-page {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0 550px;
+}
+.back .this-page a {
+  font-size: 14px;
+}
+.back .this-page a:nth-child(1) {
+  color: #ccc;
+}
+body .loginMain {
+  margin-top: 20px !important;
+  margin: 0 auto;
+  width: 600px;
+}
+body .loginMain .top-title {
+  position: relative;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+body .loginMain .top-title h3 {
+  color: #666;
+  padding-left: 100px;
+  height: 60px;
+  line-height: 60px;
+}
+body .loginMain .top-title i {
+  position: absolute;
+  top: 12px;
+  left: 500px;
+  color: #666;
+  font-size: 34px;
+}
+body .loginMain .top-title .icon-shangjiantou3 {
+  display: none;
+}
+body .loginMain .login-top-up {
+  display: none;
+  background: #eee;
+}
+body .loginMain .login-top-up p {
+  padding-top: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #666;
+}
+body .loginMain .login-top-up .check-phone {
+  position: relative;
+}
+body .loginMain .login-top-up .check-phone .span-change {
+  color: #333;
+}
+body .loginMain .login-top-up .check-password {
+  position: relative;
+}
+body .loginMain .login-top-up .check-password input {
+  border-top: none;
+}
+body .loginMain .login-top-up .check-password .span-change {
+  color: #333;
+}
+body .loginMain .login-top-up .check-password .icon-yanjing-bi {
+  position: absolute;
+  top: 18px;
+  left: 500px;
+  font-size: 24px;
+}
+body .loginMain .login-top-up .check-password .icon-yanjing-shi {
+  position: absolute;
+  top: 18px;
+  left: 500px;
+  font-size: 24px;
+  display: none;
+}
+body .loginMain .login-top-up .rember-user {
+  height: 40px;
+  margin-top: 30px;
+  line-height: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+body .loginMain .login-top-up .rember-user .rember-left {
+  float: left;
+}
+body .loginMain .login-top-up .rember-user .rember-left input[type="checkbox"] {
+  width: 20px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: none;
+}
+body .loginMain .login-top-up .rember-user .rember-left span {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+}
+body .loginMain .login-top-up .rember-user .rember-right {
+  float: right;
+}
+body .loginMain .login-top-up .rember-user .a-change {
+  text-decoration: underline;
+}
+body .loginMain .login-top-up .login-btn {
+  padding: 52px 0px;
+}
+body .loginMain .login-top-up .login-btn input[type="button"] {
+  color: #222;
+  border: none;
+  font-size: 20px;
+  font-weight: 200;
+  background: linear-gradient(135deg, #bbb, #4e5153);
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  margin: 0 200px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px #444;
+}
+body .loginMain .login-buttom .login-buttom-up {
+  background-color: #eee;
+  display: none;
+}
+body .loginMain .login-buttom .login-buttom-up .sex {
+  height: 60px;
+  line-height: 60px;
+  padding-left: 100px;
+}
+body .loginMain .login-buttom .login-buttom-up .sex .nouse {
+  margin-left: 100px;
+  margin-right: 200px;
+}
+body .loginMain .login-buttom .login-buttom-up .sex input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+body .loginMain .login-buttom .login-buttom-up .add-name {
+  position: relative;
+}
+body .loginMain .login-buttom .login-buttom-up .add-name .span-change {
+  color: #333;
+}
+body .loginMain .login-buttom .login-buttom-up .add-name p {
+  padding-right: 80px;
+  padding-left: 80px;
+  font-size: 12px;
+  color: #666;
+}
+body .loginMain .login-buttom .login-buttom-up .add-phone {
+  position: relative;
+}
+body .loginMain .login-buttom .login-buttom-up .add-phone .span-change {
+  color: #333;
+}
+body .loginMain .login-buttom .login-buttom-up .add-yanzheng {
+  position: relative;
+}
+body .loginMain .login-buttom .login-buttom-up .add-yanzheng .span-change {
+  color: #333;
+}
+body .loginMain .login-buttom .login-buttom-up .add-yanzheng input[type="button"] {
+  color: #222;
+  border: none;
+  font-size: 20px;
+  font-weight: 200;
+  background: linear-gradient(135deg, #bbb, #4e5153);
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  margin: 0 200px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px #444;
+}
+body .loginMain .login-buttom .login-buttom-up .ara-check {
+  position: relative;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #ccc;
+  padding-left: 55px;
+}
+body .loginMain .login-buttom .login-buttom-up .ara-check select {
+  font-size: 20px;
+  color: #666;
+  display: inline-block;
+  font-weight: 300;
+  width: 170px;
+  height: 25px;
+  border: 0px;
+  background: transparent;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+body .loginMain .login-buttom .login-buttom-up .ara-check select option {
+  font-weight: 300;
+  font-size: 20px;
+  width: 120px;
+  height: 25px;
+  border: 0px;
+}
+body .loginMain .login-buttom .login-buttom-up .ara-check .icon-zhankaixiajiantou- {
+  position: absolute;
+  top: 23px;
+  font-size: 20px;
+  left: 205px;
+  color: #666;
+}
+body .loginMain .login-buttom .login-buttom-up .ara-check .icon-arrow {
+  position: absolute;
+  top: 23px;
+  font-size: 20px;
+  left: 380px;
+  color: #666;
+}
+body .loginMain .login-buttom .login-buttom-up .ara-check .icon-up {
+  position: absolute;
+  top: 23px;
+  font-size: 20px;
+  left: 555px;
+  color: #666;
+}
+body .loginMain .login-buttom .login-buttom-up .add-address {
+  position: relative;
+}
+body .loginMain .login-buttom .login-buttom-up .add-address .span-change {
+  color: #333;
+}
+body .loginMain .login-buttom .login-buttom-up .add-mail {
+  position: relative;
+}
+body .loginMain .login-buttom .login-buttom-up .add-mail .span-change {
+  color: #333;
+}
+body .loginMain .login-buttom .login-buttom-up .check-mail {
+  position: relative;
+}
+body .loginMain .login-buttom .login-buttom-up .check-mail .span-change {
+  color: #333;
+}
+body .loginMain .login-buttom .login-buttom-up .add-birth {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #ccc;
+  padding-left: 55px;
+}
+body .loginMain .login-buttom .login-buttom-up .add-birth p {
+  color: #666;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+body .loginMain .login-buttom .login-buttom-up .add-birth select {
+  font-size: 20px;
+  color: #666;
+  display: inline-block;
+  font-weight: 300;
+  width: 170px;
+  height: 25px;
+  border: 0px;
+  background: transparent;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+body .loginMain .login-buttom .login-buttom-up .add-birth select option {
+  font-weight: 300;
+  font-size: 20px;
+  width: 120px;
+  height: 25px;
+  border: 0px;
+}
+body .loginMain .login-buttom .login-buttom-up .add-password {
+  position: relative;
+}
+body .loginMain .login-buttom .login-buttom-up .add-password .span-change {
+  color: #333;
+}
+body .loginMain .login-buttom .login-buttom-up .ok-password {
+  position: relative;
+}
+body .loginMain .login-buttom .login-buttom-up .ok-password .span-change {
+  color: #333;
+}
+body .loginMain .login-buttom .login-buttom-up .ok-massage {
+  height: 40px;
+  padding-top: 10px;
+  line-height: 40px;
+  padding-left: 60px;
+  padding-right: 75px;
+  border-top: 1px solid #ccc;
+}
+body .loginMain .login-buttom .login-buttom-up .ok-massage input[type="checkbox"] {
+  width: 20px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: none;
+}
+body .loginMain .login-buttom .login-buttom-up .get-massage {
+  padding-left: 62px;
+  border-top: 1px solid #ccc;
+}
+body .loginMain .login-buttom .login-buttom-up .get-massage h4 {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+body .loginMain .login-buttom .login-buttom-up .get-massage input[type="checkbox"] {
+  width: 20px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: none;
+}
+body .loginMain .login-buttom .login-buttom-up .get-massage p {
+  font-size: 14px;
+  color: #333;
+}
+body .loginMain .login-buttom .login-buttom-up .be-swarovski {
+  padding-left: 62px;
+  border-top: 1px solid #ccc;
+}
+body .loginMain .login-buttom .login-buttom-up .be-swarovski h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+body .loginMain .login-buttom .login-buttom-up .be-swarovski input[type="checkbox"] {
+  width: 20px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: none;
+}
+body .loginMain .login-buttom .login-buttom-up .be-swarovski p {
+  font-size: 14px;
+  color: #333;
+}
+body .loginMain .login-buttom .login-buttom-up .be-swarovski p {
+  color: #333;
+  font-family: "MicrosoftYaHei";
+  font-size: 14px;
+  line-height: 40px;
+}
+body .loginMain .login-buttom .login-buttom-up .add-btn input[type="button"] {
+  color: #222;
+  border: none;
+  font-size: 20px;
+  font-weight: 200;
+  background: linear-gradient(135deg, #bbb, #4e5153);
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  margin: 20px 200px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px #444;
+}

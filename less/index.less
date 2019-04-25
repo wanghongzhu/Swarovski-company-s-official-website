@@ -1,0 +1,770 @@
+//开场动画
+.welcome {
+    position: absolute;
+    z-index: 9999;
+
+    video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .logoTop {
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+
+        img {
+            position: absolute;
+            display: block;
+        }
+
+        .logo {
+            width: 800px;
+            opacity: 0;
+        }
+
+        .imgLeft,
+        .imgRight {
+            transform: rotate(20deg);
+            height: 100px;
+            opacity: 0.1;
+
+        }
+
+    }
+}
+
+//轮播图
+.swiper-slide {
+    text-align: center;
+
+    a {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+
+        img:hover {
+            cursor: url(../upload/grab.cur), default;
+        }
+
+        img:active {
+            cursor: url(../upload/grabbed.cur), default;
+        }
+    }
+
+    h3 {
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+
+    .btn {
+        width: 290px;
+        height: 65px;
+        line-height: 65px;
+        background-color: #000;
+        margin: 15px auto 45px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.3s;
+
+    }
+
+    .btn:hover {
+        background-color: #b8b7b6;
+        border-radius: 60px;
+        color: #333;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.swiper-pagination-bullet-active {
+    border-color: #ccc;
+    background: #ccc;
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    font-family: "SimSun", "宋体";
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 32%;
+    margin-top: -30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    background-image: url('');
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+//轮播图结束
+// 主体部分开始
+.row {
+    width: 100%;
+
+    .section-divider {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        height: 162px;
+        position: relative;
+
+        .section-divider-icon {
+            width: 100%;
+            position: absolute;
+            opacity: 0;
+            transition: all 0.5s linear 0.6s;
+        }
+
+        .section-divide-headline {
+            width: 100%;
+            font-size: 24px;
+            position: absolute;
+            top: 90%;
+            opacity: 0.3;
+            transition: all 0.3s linear;
+
+        }
+
+        .section-divider-text {
+            position: absolute;
+            width: 100%;
+            font-size: 20px;
+            color: #636363;
+            top: 120%;
+            opacity: 0.3;
+            transition: all 0.3s linear 0.2s;
+        }
+    }
+
+    // TheOne开始
+    .fallinlove {
+        width: 100%;
+        display: flex;
+        background-color: #f6f6f6;
+        position: relative;
+
+        .left {
+            width: 65.3%;
+            position: relative;
+            left: 30%;
+            opacity: 0.3;
+            transition: all 1s;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                transform: scale(1.0);
+                transition: all 1.2s;
+            }
+
+            .yyc {
+                width: 100%;
+                position: absolute;
+                z-index: 3;
+                top: 0;
+                background-color: rgba(0, 0, 0, 0);
+                transition: all 1.2s;
+
+                span {
+                    position: absolute;
+                    z-index: 5;
+                    top: 50%;
+                    left: 50%;
+                    color: white;
+                    font-size: 50px;
+                    opacity: 0;
+                    transform: translate(-50%, -50%);
+                    text-shadow: 0 0px 0px rgba(255, 255, 255, .8);
+                    transition: all .8s 0.3s;
+                }
+            }
+
+            &:hover .yyc {
+
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+            &:hover img {
+                transform: scale(1.2);
+            }
+
+            &:hover span {
+                opacity: 1;
+                text-shadow: 0 5px 15px rgba(255, 255, 255, .8);
+            }
+
+        }
+
+        .right {
+            width: 30%;
+            text-align: center;
+            margin: 0 auto;
+            position: relative;
+            right: 30%;
+            opacity: 0.3;
+            transition: all 1s;
+            z-index: 2;
+
+            h2 {
+                width: 100%;
+                position: absolute;
+                font-size: 20px;
+                font-weight: 600;
+                top: 35%;
+                text-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+            }
+
+            p {
+                width: 100%;
+                position: absolute;
+                font-size: 18px;
+                top: 45%;
+            }
+
+            a {
+                width: 100%;
+                display: block;
+                font-size: 15px;
+                position: absolute;
+                top: 65%;
+            }
+        }
+
+    }
+
+    .fallinlove-two {
+        width: 100%;
+        display: flex;
+        background-color: #f6f6f6;
+        position: relative;
+        margin-top: 30px;
+
+        .left {
+            width: 30%;
+            text-align: center;
+            margin: 0 auto;
+            position: relative;
+            left: 30%;
+            z-index: 2;
+            opacity: 0.3;
+            transition: all 1s;
+
+            h2 {
+                width: 100%;
+                position: absolute;
+                font-size: 20px;
+                font-weight: 600;
+                top: 35%;
+                letter-spacing: .07em;
+                text-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+            }
+
+            p {
+                width: 100%;
+                position: absolute;
+                font-size: 18px;
+                top: 50%;
+            }
+
+            a {
+                width: 100%;
+                display: block;
+                font-size: 15px;
+                position: absolute;
+                top: 65%;
+            }
+        }
+
+        .right {
+            width: 65.3%;
+            position: relative;
+            right: 20%;
+            opacity: 0.3;
+            transition: all 1s;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                transform: scale(1.0);
+                transition: all 1.2s;
+            }
+
+            .yyc {
+                width: 100%;
+                position: absolute;
+                z-index: 3;
+                top: 0;
+                background-color: rgba(0, 0, 0, 0);
+                transition: all 1.2s;
+
+                span {
+                    position: absolute;
+                    z-index: 5;
+                    top: 50%;
+                    left: 50%;
+                    color: white;
+                    font-size: 50px;
+                    opacity: 0;
+                    transform: translate(-50%, -50%);
+                    text-shadow: 0 0px 0px rgba(255, 255, 255, .8);
+                    transition: all .8s 0.3s;
+                }
+            }
+
+            &:hover .yyc {
+
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+            &:hover img {
+                transform: scale(1.2);
+            }
+
+            &:hover span {
+                opacity: 1;
+                text-shadow: 0 5px 15px rgba(255, 255, 255, .8);
+            }
+        }
+    }
+
+    .fallinlove-tree {
+        width: 100%;
+        display: flex;
+        position: relative;
+        margin-top: 30px;
+        justify-content: space-between;
+
+        a {
+            display: block;
+        }
+
+        img {
+            width: 100%;
+            transform: scale(1.0);
+            transition: all 1.2s;
+
+        }
+
+        .yyc {
+            width: 100%;
+            position: absolute;
+            z-index: 3;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0);
+            transition: all 1.2s;
+        }
+
+        .f-text {
+            height: 90px;
+            width: 100%;
+            background-color: #f6f6f6;
+            text-align: center;
+            line-height: 70px;
+            font-size: 15px;
+            transition: all 0.5s;
+            font-weight: 600;
+            font-size: 18px;
+
+            span {
+                position: relative;
+                top: 0;
+                transition: all 1.2s cubic-bezier(.12, .58, .1, .99);
+                z-index: 5;
+                text-shadow: 0 5px 15px rgba(255, 255, 255, .8);
+            }
+        }
+
+        .f-t-one,
+        .f-t-two,
+        .f-t-tree,
+        .f-t-four {
+            width: 23%;
+            position: relative;
+            opacity: 0;
+
+
+            &:hover .yyc {
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+            &:hover .f-text {
+                background-color: #fff;
+            }
+
+            &:hover img {
+                transform: scale(1.2);
+            }
+        }
+
+        .f-t-one-img,
+        .f-t-two-img,
+        .f-t-tree-img,
+        .f-t-four-img {
+            overflow: hidden;
+        }
+
+        .f-t-one {
+            transition: all 0.6s cubic-bezier(1, -0.02, .46, 1.84);
+
+        }
+
+        .f-t-two {
+            transition: all 0.6s 0.2s cubic-bezier(1, -0.02, .46, 1.84);
+        }
+
+        .f-t-tree {
+            transition: all 0.6s 0.5s cubic-bezier(1, -0.02, .46, 1.84);
+        }
+
+        .f-t-four {
+            transition: all 0.6s 0.8s cubic-bezier(1, -0.02, .46, 1.84);
+
+            .f-text {
+                font-size: 15px;
+            }
+
+        }
+    }
+}
+
+//歌颂友谊部分开始
+.row1 {
+    width: 100%;
+
+    .section-divider1 {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+
+        .section-divide-headline1 {
+            font-size: 24px;
+            margin-top: 23px;
+            position: relative;
+            top: 80px;
+            transition: all 0.6s cubic-bezier(.12, .58, .1, .99);
+        }
+
+        .section-divider-icon1 {
+            img {
+                opacity: 0;
+                transition: all 0.6s 0.3s cubic-bezier(.12, .58, .1, .99);
+            }
+        }
+    }
+
+    .friend {
+        width: 100%;
+
+        .friend-top {
+            display: flex;
+            position: relative;
+            background-color: #f6f6f6;
+
+            .F-left {
+                width: 30%;
+                margin: 0 auto;
+                text-align: center;
+                position: relative;
+
+
+                h2 {
+                    width: 100%;
+                    position: absolute;
+                    font-size: 20px;
+                    font-weight: 600;
+                    top: 35%;
+                    letter-spacing: .07em;
+                    text-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+                }
+
+                p {
+                    width: 100%;
+                    position: absolute;
+                    font-size: 18px;
+                    top: 50%;
+                }
+
+                a {
+                    width: 100%;
+                    display: block;
+                    font-size: 15px;
+                    position: absolute;
+                    top: 65%;
+                }
+
+            }
+
+            .F-right {
+                width: 65.3%;
+                box-sizing: border-box;
+                border: 5px solid #ccc;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    position: relative;
+                    top: 0;
+                    right: 0;
+                    transition: all 0.6s;
+                }
+
+                .yyc {
+                    width: 100%;
+                    position: absolute;
+                    z-index: 3;
+                    top: 0;
+                    background-color: rgba(0, 0, 0, 0);
+                    transition: all 1.2s;
+
+                    span {
+                        position: absolute;
+                        z-index: 5;
+                        top: 50%;
+                        left: 50%;
+                        color: white;
+                        font-size: 50px;
+                        opacity: 0;
+                        transform: translate(-50%, -50%);
+                        text-shadow: 0 0px 0px rgba(255, 255, 255, .8);
+                        transition: all .8s 0.3s;
+                    }
+                }
+
+                &:hover .yyc {
+                    background-color: rgba(0, 0, 0, 0.5);
+                }
+
+                &:hover span {
+                    opacity: 1;
+                    text-shadow: 0 5px 15px rgba(255, 255, 255, .8);
+                }
+            }
+        }
+
+        .friend-bottom {
+            display: flex;
+            width: 100%;
+            margin-top: 40px;
+            justify-content: space-between;
+
+            .yyc {
+                width: 100%;
+                position: absolute;
+                z-index: 3;
+                top: 0;
+                background-color: rgba(0, 0, 0, 0);
+                transition: all 1.2s;
+            }
+
+            .nice-text {
+                height: 90px;
+                font-size: 15px;
+            }
+
+            .friend-bottom-right-text,
+            .friend-bottom-left-text {
+
+                background-color: #f6f6f6;
+
+                text-align: center;
+                line-height: 70px;
+                font-weight: 600;
+
+                span {
+                    position: relative;
+                    top: 0;
+                    transition: all 1.2s cubic-bezier(.12, .58, .1, .99);
+                    z-index: 5;
+                    text-shadow: 0 5px 15px rgba(255, 255, 255, .8);
+                }
+            }
+
+            img {
+                width: 100%;
+                position: relative;
+                transition: all 0.6s;
+            }
+
+            .friend-bottom-left {
+                width: 47%;
+                position: relative;
+
+                .friend-bottom-left-img {
+                    box-sizing: border-box;
+                    border: 5px solid #ccc;
+                    background-color: #f6f6f6;
+
+                    img {
+                        left: 0px;
+                        top: 0px;
+                    }
+                }
+
+                &:hover .yyc {
+                    background-color: rgba(0, 0, 0, 0.5);
+
+                }
+
+                &:hover .friend-bottom-left-text {
+                    background-color: #fff;
+                }
+            }
+
+            .friend-bottom-right {
+                width: 47%;
+                position: relative;
+
+                .friend-bottom-right-img {
+                    border: 5px solid #ccc;
+                    box-sizing: border-box;
+                    background-color: #f6f6f6;
+
+                    img {
+                        left: 0px;
+                        top: 0px;
+                    }
+                }
+
+                &:hover .yyc {
+                    background-color: rgba(0, 0, 0, 0.5);
+
+                }
+
+                &:hover .friend-bottom-left-text {
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+
+}
+
+.row2 {
+    width: 100%;
+
+    .section-divider2 {
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 80px;
+
+        .section-divide-headline2 {
+            font-size: 24px;
+            margin-top: 23px;
+            position: relative;
+            top: 80px;
+            transition: all 0.6s cubic-bezier(.12, .58, .1, .99);
+        }
+
+        .section-divider-text2 {
+            font-size: 20px;
+            color: #636363;
+            position: relative;
+            top: 140px;
+            transition: all 0.6s cubic-bezier(.12, .58, .1, .99);
+        }
+
+        .section-divider-icon2 {
+            img {
+                opacity: 0;
+                transition: all 0.6s 0.3s cubic-bezier(.12, .58, .1, .99);
+            }
+        }
+    }
+
+    .jamila {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #f6f6f6;
+        position: relative;
+
+        .jamila-left {
+            width: 65.3%;
+
+            a {
+                // display: block;
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+
+                // img:hover {
+                //     cursor: url(../upload/favico.ico),auto;
+                // }
+            }
+
+        }
+
+        .jamila-right {
+            width: 30%;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+
+            h2 {
+                width: 100%;
+                position: absolute;
+                font-size: 20px;
+                font-weight: 600;
+                top: 35%;
+                letter-spacing: .07em;
+                text-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+            }
+
+            p {
+                width: 100%;
+                position: absolute;
+                font-size: 18px;
+                top: 50%;
+            }
+
+            a {
+                width: 100%;
+                display: block;
+                font-size: 15px;
+                position: absolute;
+                top: 70%;
+            }
+        }
+    }
+}
+
+// TheOne结束
+
+// TheTwo开始
+
+// TheTwo结束
+
+// TheTree开始
+
+// TheTree结束
+// 主体部分结束

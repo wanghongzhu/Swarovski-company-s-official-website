@@ -1,0 +1,173 @@
+@media only screen and (min-width: 1025px) and (max-width: 1469px) {
+  .dec .h1 {
+    font-size: 40px;
+    font-weight: 300;
+    height: 60px;
+  }
+  .dec .h3 {
+    font-size: 18px;
+  }
+  .back {
+    box-sizing: border-box;
+  }
+  .back .this-page {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 430px;
+  }
+  .back .this-page a {
+    font-size: 14px;
+  }
+  .loginMain {
+    margin-top: 20px !important;
+    margin: 0 auto;
+  }
+  .loginMain span {
+    font-size: 18px;
+  }
+  .loginMain #xia1,
+  .loginMain #xia2 {
+    left: 550px;
+    font-size: 34px;
+  }
+  .loginMain #shang1,
+  .loginMain #shang2 {
+    left: 550px;
+    font-size: 34px;
+  }
+  .loginMain .get-massage h4 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 760px) {
+  .login-span {
+    font-size: 14px;
+  }
+  .dec .h1 {
+    font-size: 34px;
+    font-weight: 300;
+    height: 50px;
+  }
+  .dec .h3 {
+    font-size: 16px;
+  }
+  .back {
+    box-sizing: border-box;
+  }
+  .back .this-page {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 310px;
+  }
+  .back .this-page a {
+    font-size: 14px;
+  }
+  .loginMain {
+    margin-top: 20px !important;
+    margin: 0 auto;
+  }
+  .loginMain #xia1,
+  .loginMain #xia2 {
+    left: 450px;
+    font-size: 26px;
+  }
+  .loginMain #shang1,
+  .loginMain #shang2 {
+    left: 450px;
+    font-size: 26px;
+  }
+  .loginMain span {
+    font-size: 16px;
+  }
+  .loginMain .get-massage h4 {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 759px) {
+  .dec {
+    text-align: center;
+  }
+  .dec .h1 {
+    font-size: 36px;
+    font-weight: 300;
+    height: 50px;
+  }
+  .dec .h3 {
+    font-size: 16px;
+  }
+  .back {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .back .this-page {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 140px;
+  }
+  .back .this-page a {
+    font-size: 14px;
+  }
+  .input-change {
+    width: 420px;
+  }
+  body .loginMain {
+    margin-top: 20px !important;
+    margin: 0 auto;
+    width: 420px;
+  }
+  body .loginMain .span-change {
+    left: 50px;
+  }
+  body .loginMain span {
+    font-size: 14px;
+  }
+  body .loginMain .top-title h3 {
+    padding-left: 50px;
+  }
+  body .loginMain .top-title #xia1,
+  body .loginMain .top-title #xia2 {
+    left: 350px;
+    font-size: 30px;
+  }
+  body .loginMain .top-title #shang1,
+  body .loginMain .top-title #shang2 {
+    left: 350px;
+    font-size: 30px;
+  }
+  body .loginMain .get-massage h4 {
+    font-size: 14px;
+  }
+  body .loginMain .add-yanzheng input[type="button"],
+  body .loginMain .add-btn input[type="button"],
+  body .loginMain .login-btn input[type="button"] {
+    margin: 0 120px !important;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+  }
+  body .loginMain .input-change {
+    padding-left: 28px;
+  }
+  body .loginMain .login-buttom .login-buttom-up .sex {
+    padding-left: 50px;
+  }
+  body .loginMain .login-buttom .login-buttom-up .nouse {
+    margin-left: 0px !important;
+  }
+  body .loginMain .login-buttom .login-buttom-up .get-massage {
+    padding-left: 0px;
+    check: "checked";
+  }
+  body .loginMain .login-buttom .login-buttom-up .ok-massage {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  body .loginMain .login-buttom .login-buttom-up .be-swarovski {
+    padding-left: 0px;
+  }
+  body .loginMain .login-buttom .login-buttom-up .add-birth select,
+  body .loginMain .login-buttom .login-buttom-up .ara-check select {
+    font-size: 14px;
+    width: 110px;
+  }
+}

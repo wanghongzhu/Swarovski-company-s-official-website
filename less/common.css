@@ -1,0 +1,604 @@
+.nav {
+  border-bottom: 1px solid #b8b7b6;
+}
+.nav h2 {
+  width: 100%;
+  font-size: 12px;
+}
+.nav h2 a {
+  padding: 12px 0;
+  color: #888;
+}
+.userbar {
+  border-bottom: 1px solid #b8b7b6;
+}
+.userbar .userflex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+.userbar .userflex a {
+  display: inline-block;
+  vertical-align: middle;
+}
+.userbar .userflex a i {
+  font-size: 20px;
+}
+.userbar .userflex .left {
+  flex: 1;
+}
+.userbar .userflex .left .china img {
+  vertical-align: -4px;
+}
+.userbar .userflex .left .china i {
+  vertical-align: -3px;
+}
+.userbar .userflex .left .china span {
+  padding: 0px 5px;
+}
+.userbar .userflex .left .map {
+  margin-left: 45px;
+}
+.userbar .userflex .left .map i {
+  vertical-align: -3px;
+}
+.userbar .userflex .center {
+  flex: 1;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.userbar .userflex .right {
+  flex: 1;
+  text-align: right;
+}
+.userbar .userflex .right a {
+  position: relative;
+}
+.userbar .userflex .right .gift {
+  padding: 0 18px;
+}
+.userbar .userflex .right .gift i {
+  font-weight: 600;
+}
+.userbar .userflex .right i {
+  margin-right: 6px;
+  vertical-align: -2px;
+}
+.userbar .userflex .right .giftnum,
+.userbar .userflex .right .shopcarnum {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #231161;
+  font-size: 9px;
+  color: aliceblue;
+  line-height: 12px;
+  text-align: center;
+}
+.userbar .userflex .right .giftnum {
+  top: 8px;
+  left: 29px;
+}
+.userbar .userflex .right .shopcarnum {
+  top: 8px;
+  left: 11px;
+}
+.icon {
+  width: 100%;
+  text-align: center;
+}
+.icon a img {
+  width: 258px;
+}
+.mousesj {
+  position: relative;
+}
+.main-nav {
+  max-width: 1676px;
+  width: 100%;
+  position: relative;
+  margin: 10px auto 0;
+  padding-bottom: 40px;
+  display: flex;
+}
+.main-nav .nav-ul {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  transition: width 1s;
+}
+.main-nav .nav-ul li {
+  line-height: 50px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+.main-nav .nav-ul li:last-child {
+  display: none;
+}
+.main-nav .nav-ul li:hover a {
+  color: #b8b8b8;
+}
+.main-nav .search {
+  width: 150px;
+  right: -200px;
+  top: -22px;
+}
+.main-nav .search input {
+  width: 100%;
+  height: 50px;
+  padding: 0 46px 0 10px;
+  background-color: #f6f6f6;
+  border: 1px solid #b8b7b6;
+  box-sizing: border-box;
+}
+.main-nav .search i {
+  position: absolute;
+  right: 10px;
+  top: 11px;
+  font-size: 25px;
+}
+.main-nav .search .seach_list {
+  position: absolute;
+  width: 300px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 10px;
+  display: none;
+}
+.main-nav .search .seach_list li {
+  width: 100%;
+  line-height: 25px;
+  /* 超出文字隐藏 */
+  overflow: hidden;
+  /* 将溢出的文字设置为省略号显示 */
+  text-overflow: ellipsis;
+  /* 设置要显示多少行 */
+  -webkit-line-clamp: 1;
+  /*文字显示方式 */
+  -webkit-box-orient: vertical;
+  /* 弹性盒子 */
+  display: -webkit-box;
+}
+.main-nav .search .seach_list li:hover {
+  background-color: #b9b6b6e1;
+}
+.main-nav-slide {
+  position: absolute;
+  border-top: 1px solid #b8b7b6;
+  border-bottom: 1px solid #b8b7b6;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  display: none;
+}
+.main-nav-slide a:hover {
+  color: #b8b8b8;
+}
+.main-nav-slide .active {
+  display: block !important;
+}
+.main-nav-slide .w > div {
+  width: 100%;
+  margin: 30px 0;
+  display: none;
+}
+.main-nav-slide h3 {
+  font-size: 23px;
+}
+.main-nav-slide .off {
+  text-align: center;
+  font-size: 20px;
+}
+.main-nav-slide .off i {
+  font-size: 25px;
+  vertical-align: -2px;
+}
+.main-nav-slide .allsp {
+  display: flex;
+  line-height: 60px;
+}
+.main-nav-slide .allsp ul {
+  width: 25%;
+  font-size: 16px;
+}
+.main-nav-slide .allsp ul span {
+  margin-right: 25px;
+  font-size: 20px;
+}
+.moblie-header {
+  width: 100%;
+  margin: 10px 0 20px;
+  display: none;
+}
+.moblie-header .moblie-logo {
+  display: flex;
+}
+.moblie-header .moblie-logo > div {
+  width: 33.33%;
+}
+.moblie-header .moblie-logo .moblie-left {
+  line-height: 45px;
+}
+.moblie-header .moblie-logo .moblie-left .iconfont {
+  font-size: 23px;
+  vertical-align: -5px;
+  color: #000;
+}
+.moblie-header .moblie-logo .moblie-center {
+  text-align: center;
+}
+.moblie-header .moblie-logo .moblie-center a {
+  display: block;
+}
+.moblie-header .moblie-logo .moblie-center img {
+  height: 45px;
+}
+.moblie-header .moblie-logo .moblie-right {
+  text-align: right;
+  line-height: 45px;
+}
+.moblie-header .moblie-logo .moblie-right i {
+  color: #000;
+  font-size: 25px;
+}
+.moblie-header .moblie-logo .moblie-right .giftnum,
+.moblie-header .moblie-logo .moblie-right .shopcarnum {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #231161;
+  font-size: 9px;
+  color: aliceblue;
+  line-height: 12px;
+  text-align: center;
+  top: 0;
+  left: 14px;
+}
+.moblie-header .moblie-logo .moblie-right .gift {
+  position: relative;
+  margin-right: 20px;
+}
+.moblie-header .moblie-logo .moblie-right .shopcar {
+  position: relative;
+}
+.moblie-header .moblie-seach {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+}
+.moblie-header .moblie-seach input {
+  width: 75%;
+  border: 1px solid #b8b7b6;
+  height: 50px;
+  padding: 0 46px 0 10px;
+}
+.moblie-header .moblie-seach i {
+  position: absolute;
+  right: 10%;
+  top: 11px;
+  font-size: 25px;
+}
+.moblie-header .moblie-seach .moblie-seach_list {
+  position: absolute;
+  width: 83%;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 10px;
+  display: none;
+  left: 8.5%;
+}
+.moblie-header .moblie-seach .moblie-seach_list li {
+  width: 100%;
+  line-height: 25px;
+  /* 超出文字隐藏 */
+  overflow: hidden;
+  /* 将溢出的文字设置为省略号显示 */
+  text-overflow: ellipsis;
+  /* 设置要显示多少行 */
+  -webkit-line-clamp: 1;
+  /*文字显示方式 */
+  -webkit-box-orient: vertical;
+  /* 弹性盒子 */
+  display: -webkit-box;
+}
+.moblie-header .moblie-seach .moblie-seach_list li:hover {
+  background-color: #b9b6b6e1;
+}
+.mobilesidbar {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  overflow: auto;
+  z-index: 9999;
+  display: none;
+}
+.mobilesidbar .mainsidbar {
+  max-width: 290px;
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.mobilesidbar .mainsidbar .S-title {
+  display: flex;
+}
+.mobilesidbar .mainsidbar .S-title a {
+  width: 50%;
+}
+.mobilesidbar .mainsidbar .S-title a span {
+  font-size: 25px;
+}
+.mobilesidbar .mainsidbar .S-title i {
+  width: 50%;
+  text-align: right;
+  font-size: 25px;
+  cursor: pointer;
+}
+.mobilesidbar .mainsidbar .mobileS-seach {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #b8b8b8;
+  margin: 20px 0 10px;
+  position: relative;
+}
+.mobilesidbar .mainsidbar .mobileS-seach input {
+  box-sizing: border-box;
+  height: 50px;
+  width: 100%;
+  background-color: #f6f6f6;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+.mobilesidbar .mainsidbar .mobileS-seach span {
+  position: absolute;
+  top: 35%;
+  right: 6%;
+}
+.mobilesidbar .mainsidbar .mobileS-seach .mobileS_seach_list {
+  position: absolute;
+  border: 1px solid #ccc;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0 10px;
+  display: none;
+}
+.mobilesidbar .mainsidbar .mobileS-seach .mobileS_seach_list li {
+  width: 100%;
+  line-height: 25px;
+  /* 超出文字隐藏 */
+  overflow: hidden;
+  /* 将溢出的文字设置为省略号显示 */
+  text-overflow: ellipsis;
+  /* 设置要显示多少行 */
+  -webkit-line-clamp: 1;
+  /*文字显示方式 */
+  -webkit-box-orient: vertical;
+  /* 弹性盒子 */
+  display: -webkit-box;
+}
+.mobilesidbar .mainsidbar .mobileS-seach .mobileS_seach_list li:hover {
+  background-color: #b9b6b6e1;
+}
+.mobilesidbar .mainsidbar .sibarlist li {
+  line-height: 60px;
+}
+.mobilesidbar .mainsidbar .sibarlist a {
+  color: #727272;
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.mobilesidbar .mainsidbar .sibarlist a i {
+  font-size: 18px;
+}
+.mobilesidbar .mainsidbar .sibarlist .lists {
+  box-sizing: border-box;
+  padding: 0 20px;
+  display: none;
+}
+.mobilesidbar .mainsidbar .sibarlist .lists a {
+  font-size: 12px;
+  line-height: 40px;
+}
+.mobilesidbar .mainsidbar .sibarlist .lists a i {
+  font-size: 16px;
+}
+.mobilesidbar .mainsidbar .where {
+  color: #727272;
+}
+.mobilesidbar .mainsidbar .where i {
+  vertical-align: -1px;
+}
+.mobilesidbar .mainsidbar .where div {
+  margin-top: 5px;
+}
+.footer {
+  margin-top: 60px;
+}
+.footer .line {
+  border-top: 1px solid #b8b7b6;
+}
+.footer .service-box {
+  display: flex;
+  width: 100%;
+  margin: 54px auto;
+}
+.footer .service-box a {
+  width: 25%;
+  font-size: 16px;
+  color: #333;
+}
+.footer .service-box a span {
+  font-size: 35px;
+  vertical-align: -7px;
+}
+.footer .service-box a i {
+  margin-left: 7px;
+}
+.footer .service-box a:nth-child(2),
+.footer .service-box a:nth-child(3) {
+  text-align: center;
+}
+.footer .service-box a:nth-child(4) {
+  text-align: right;
+}
+.footer .service-box a:hover {
+  color: #b8b7b6;
+}
+.footer .fgx {
+  height: 35px;
+  background-color: #000;
+  text-align: center;
+  margin-top: 35px;
+}
+.footer .guanyu {
+  width: 100%;
+  margin: 20px 0;
+}
+.footer .guanyu ul {
+  display: flex;
+}
+.footer .guanyu ul li {
+  width: 30%;
+}
+.footer .guanyu ul li:nth-child(2),
+.footer .guanyu ul li:nth-child(3) {
+  width: 25%;
+}
+.footer .guanyu ul li:nth-child(4) {
+  width: 20%;
+  text-align: right;
+}
+.footer .guanyu ul li dt {
+  margin-bottom: 18px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.footer .guanyu ul li dd {
+  margin-top: 11px;
+  font-size: 15px;
+  color: #aaa;
+  cursor: pointer;
+}
+.footer .guanyu ul li dd:hover {
+  color: #333;
+}
+.footer .moblie-guanyu {
+  display: none;
+  font-size: 14px;
+  color: #333;
+}
+.footer .moblie-guanyu .w > div {
+  line-height: 61px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.footer .moblie-guanyu a {
+  color: #b8b8b8;
+  font-size: 12px;
+}
+.footer .moblie-guanyu .last {
+  text-align: center;
+  color: #b8b8b8;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.footer .moblie-guanyu .zankai {
+  display: none;
+  line-height: 23px;
+}
+.footer .beian {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+}
+.footer .beian .beianleft {
+  width: 50%;
+}
+.footer .beian .beianright {
+  width: 50%;
+}
+.shuru {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow: auto;
+  z-index: 1000;
+  display: none;
+}
+.shuru #allmap {
+  width: 100%;
+  height: 100%;
+}
+.shuru .shuru-seacg {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  z-index: 1001;
+  display: flex;
+  top: 20px;
+}
+.shuru .shuru-seacg .jz {
+  width: 70%;
+  margin: 0 auto;
+}
+.shuru .shuru-seacg .jz input {
+  width: 80%;
+  height: 50px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.shuru .shuru-seacg .jz button {
+  border: 0;
+  outline: 0;
+  width: 70px;
+  height: 50px;
+}
+.shuru .shuru-seacg .jz img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.totop {
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  position: fixed;
+  right: 0;
+  bottom: 30px;
+  text-align: center;
+  line-height: 50px;
+  display: none;
+  cursor: pointer;
+}
+.totop i {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+}
